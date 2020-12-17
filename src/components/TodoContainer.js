@@ -46,7 +46,6 @@ class TodoContainer extends React.Component {
 				})
 			]
 		});
-		console.log('Delete', id);
     };
     
     addTodoItem = title => {
