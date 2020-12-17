@@ -36,7 +36,6 @@ class TodoContainer extends React.Component {
 				return todo;
 			})
 		}));
-		console.log('Clicked', id);
 	};
 
 	deleteTodo = (id) => {
